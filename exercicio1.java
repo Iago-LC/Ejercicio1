@@ -16,3 +16,17 @@ public class Exercicio7 {
          	System.out.println("Error. O número introducido non é válido. Probe con outro");
             	n = sc.nextInt();
         }
+
+	while (cont <= n) {
+            num = 0;
+            while (num < cont) {
+                System.out.print("*");
+                num++;
+            }
+            cont++;
+            System.out.println("");
+
+        }
+    }
+
+}
