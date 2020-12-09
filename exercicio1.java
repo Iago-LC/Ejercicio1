@@ -8,5 +8,7 @@ public class Exercicio7 {
         	int n;
         	int num;
         	int cont = 0;
-        	Scanner sc = new Scanner(System.in);
+
+        System.out.println("Introduzca un número entre 3 e 10:");
+        n = sc.nextInt();	Scanner sc = new Scanner(System.in);
 
