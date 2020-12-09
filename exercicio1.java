@@ -9,6 +9,10 @@ public class Exercicio7 {
         	int num;
         	int cont = 0;
 
-        System.out.println("Introduzca un número entre 3 e 10:");
-        n = sc.nextInt();	Scanner sc = new Scanner(System.in);
+        	System.out.println("Introduzca un número entre 3 e 10:");
+        	n = sc.nextInt();	Scanner sc = new Scanner(System.in);
 
+		while (n < 3 || n > 10) {
+         	System.out.println("Error. O número introducido non é válido. Probe con outro");
+            	n = sc.nextInt();
+        }
